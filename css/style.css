@@ -1,0 +1,399 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  /* padding-top: 70px; */
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+}
+nav {
+  background-color: white;
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+nav div {
+}
+nav ul.na {
+  display: flex;
+}
+nav ul.na > li {
+  margin-left: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ababab;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 2em;
+  padding: 1.33em 0;
+}
+nav ul li a:hover {
+  color: #00b39b;
+}
+nav ul li a.active {
+  color: #00b39b;
+}
+nav img {
+  width: 300px;
+  width: 268px;
+  /* height: 33px; */
+}
+.lead h1 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 1em 0;
+  /* font-family: Work Sans,Arial,sans-serif; */
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.center {
+  text-align: center;
+  margin: 40px 0px;
+}
+.flex {
+  display: flex;
+}
+.gap {
+  gap: 12px;
+  /* flex-wrap: wrap; */
+  /* max-width: 18%; */
+}
+.flex p {
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+.vertical {
+  flex-direction: column;
+  padding: 31px;
+  background: red;
+  /* margin-right: 20px; */
+  height: 365px;
+  border-radius: 8px;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.green {
+  background-color: #00ccb1;
+}
+.blue {
+  background-color: #3d83df;
+}
+.dark-blue {
+  background-color: #1b2734;
+}
+.vertical h1,
+.vertical h3 {
+  color: white;
+}
+.vertical select {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.vertical select option {
+  color: black;
+}
+.vertical:hover {
+  opacity: 0.8;
+}
+section {
+  margin-bottom: 80px !important;
+}
+.s3 ul {
+  flex-wrap: wrap;
+}
+.s3 ul li {
+  list-style: none;
+  color: red;
+}
+a {
+  outline: 0;
+  text-decoration: none;
+  transition: all 0.2s ease 0s;
+  color: #d1bfbf;
+}
+.s3 h1 {
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  min-width: 263px;
+}
+.s3 a svg {
+  height: 20px;
+  width: auto;
+  max-width: 100%;
+  /* padding-left: 10px; */
+  filter: opacity(0.5);
+  /* color: #d9a5a5; */
+}
+.s3 li {
+  font-size: 1rem;
+  margin-top: 0;
+  padding: 5px 0 5px 5px;
+  width: auto;
+  margin-right: 24px;
+}
+.s3 img {
+  filter: grayscale();
+}
+.s3 img:hover,
+.s3 a svg:hover {
+  filter: none;
+  fill: #00b39b;
+}
+.s4 {
+  background: #e5faf8;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+  padding: 1.875em 0 0.625em;
+  padding-bottom: 2.5em;
+  overflow: hidden;
+}
+.dr {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.dr > div {
+  width: 229px;
+  background: white;
+  padding: 21px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  height: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.center2 {
+  text-align: center;
+  margin: 15px;
+}
+.s4 h3 {
+  font-size: 1.5em;
+  color: #00b39b;
+  margin: 0.5em 0;
+  text-align: center;
+}
+.s4 .dr p {
+  margin: 0;
+  font-size: 12px;
+  line-height: normal;
+  text-align: center;
+}
+.tran {
+  transform: translateY(35px);
+}
+.s4 .rel {
+  position: relative;
+}
+.s4 .rel div {
+  position: absolute;
+  right: 4%;
+  top: 54%;
+  width: 456px;
+  height: 435px;
+}
+
+.s5 h1,
+.s5 p {
+  text-align: center;
+  margin-top: 18px !important;
+  width: 56%;
+  margin: auto;
+}
+.zone {
+  margin-top: 0;
+  color: #747474;
+  overflow: hidden;
+  font-size: 1.125em;
+  padding: 1.11em;
+}
+.zone span {
+  float: right;
+  background: #3d83df;
+  color: white;
+  font-size: 12px;
+  padding: 0.5em 1.5em;
+  outline: 0;
+  border: 0;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 4px;
+}
+.s5 .flex > div {
+  width: 32%;
+}
+.s5 .flex > div:hover {
+  transition: box-shadow 0.2s ease 0s;
+  box-shadow: 0 20px 50px 0 rgb(0 0 0 / 13%);
+}
+.s5 img {
+  width: 100%;
+  border-radius: 6px;
+}
+.s5 .flex {
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* margin-right: 20px; */
+  gap: 16px;
+  margin-top: 90px;
+}
+.s6 a {
+  border-radius: 4px;
+  padding: 1.1em 1.5em;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+}
+.s6 a:hover {
+  background: #1662c6;
+}
+.s6 h1 {
+  color: #333;
+  margin-top: 100px;
+}
+footer {
+  margin-bottom: 25px;
+}
+footer p {
+  margin: 1.6em 0;
+  margin-bottom: 0.4em;
+}
+footer a {
+  text-decoration: underline;
+  color: #3d83df;
+}
+footer div {
+  font-size: 12px;
+  color: #ababab;
+  text-align: center;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown div {
+  display: none;
+  position: absolute;
+  top: 34px;
+  left: -60px;
+  padding-top: 10px;
+  min-width: 220px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 1;
+}
+.dropdown div ul {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: baseline; */
+  padding: 0;
+}
+.dropdown div ul li {
+  width: 100%;
+  list-style: none; /* text-align: center; */
+  padding: 6px;
+  padding-left: 20px;
+}
+.dropdown div ul li:hover {
+  background-color: #eeeded;
+}
+.dropdown div ul li a {
+  transition: all 0.2s ease 0s;
+  /* line-height: 120%; */
+  /* font-size: 16px; */
+  /* padding: 12px 16px!important; */
+  /* letter-spacing: 1px; */
+}
+.dropdown:hover > div {
+  display: inline;
+}
+.mob {
+  display: none;
+}
+
+@media (max-width: 800px) {
+    .s3 ul{
+        padding: 0;
+    }
+  .flex {
+    flex-direction: column;
+  }
+  nav ul.na {
+    display: none;
+  }
+  .mob {
+    display: inline;
+  }
+  .container {
+    width: 90%;
+  }
+  .s5 .flex > div {
+    width: 100%;
+  }
+  .s5 h1,
+  .s5 p {
+    width: 80%;
+  }
+  .dr > div {
+    width: 100%;
+    margin-bottom: 28px;
+    z-index: 10;
+  }
+  .tran {
+    transform: translateY(0);
+  }
+  .rows {
+    flex-direction: row;
+  }
+  .s3 h1 {
+    margin-bottom: 37px;
+  }
+  section {
+    margin-bottom: 50px !important;
+  }
+  .s4 .rel div {
+    right: 5px;
+    top: 200px;
+  }
+}
